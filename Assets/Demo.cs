@@ -4,7 +4,7 @@ using EasyUI.Toast ;
 public class Demo : MonoBehaviour {
 
    public void ShowMessage1 () {
-      Toast.Show ("Hello World") ;
+      Toast.Show ("Hello GameDevs") ;
    }
 
    public void ShowMessage2 () {

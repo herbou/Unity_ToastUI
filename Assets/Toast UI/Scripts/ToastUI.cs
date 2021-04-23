@@ -1,7 +1,11 @@
 ﻿using UnityEngine ;
 using System.Collections ;
 using UnityEngine.UI ;
-using TMPro ;
+
+/* -------------------------------
+   Created by : Hamza Herbou
+   hamza95herbou@gmail.com
+---------------------------------- */
 
 namespace EasyUI.Toast {
 
@@ -20,7 +24,7 @@ namespace EasyUI.Toast {
       [Header ("UI References :")]
       [SerializeField] private CanvasGroup uiCcanvasGroup ;
       [SerializeField] private Image uiImage ;
-      [SerializeField] private TextMeshProUGUI uiText ;
+      [SerializeField] private Text uiText ;
 
       [Header ("Toast Colors :")]
       [SerializeField] private Color[] colors ;
@@ -43,7 +47,7 @@ namespace EasyUI.Toast {
       }
 
       private void Show (string text, float duration, Color color) {
-         uiText.text = text ;
+         uiText.text = (text.Length > 55) ? text.Substring (0, 55) + "..." : text ;
          uiImage.color = color ;
 
          StopAllCoroutines () ;
@@ -73,6 +77,10 @@ namespace EasyUI.Toast {
          }
 
          cGroup.alpha = endAlpha ;
+      }
+
+      private void OnDestroy () {
+         Toast.isLoaded = false ;
       }
    }
 

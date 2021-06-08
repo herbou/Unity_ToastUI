@@ -1,4 +1,5 @@
 ﻿using UnityEngine ;
+using EasyUI.Helpers ;
 
 /* -------------------------------
    Created by : Hamza Herbou
@@ -6,6 +7,23 @@
 ---------------------------------- */
 
 namespace EasyUI.Toast {
+
+   public enum ToastColor {
+      Black,
+      Red,
+      Purple,
+      Magenta,
+      Blue,
+      Green,
+      Yellow,
+      Orange
+   }
+
+   public enum ToastPosition {
+      Top,
+      Middle,
+      Bottom
+   }
 
    public static class Toast {
       public static bool isLoaded = false ;
@@ -21,34 +39,72 @@ namespace EasyUI.Toast {
          }
       }
 
+
+
       public static void Show (string text) {
          Prepare () ;
-         toastUI.Init (text, 2F, ToastColor.Black) ;
+         toastUI.Init (text, 2F, ToastColor.Black, ToastPosition.Bottom) ;
       }
+
 
       public static void Show (string text, float duration) {
          Prepare () ;
-         toastUI.Init (text, duration, ToastColor.Black) ;
+         toastUI.Init (text, duration, ToastColor.Black, ToastPosition.Bottom) ;
       }
+
+      public static void Show (string text, float duration, ToastPosition position) {
+         Prepare () ;
+         toastUI.Init (text, duration, ToastColor.Black, position) ;
+      }
+
 
       public static void Show (string text, ToastColor color) {
          Prepare () ;
-         toastUI.Init (text, 2F, color) ;
+         toastUI.Init (text, 2F, color, ToastPosition.Bottom) ;
       }
+
+      public static void Show (string text, ToastColor color, ToastPosition position) {
+         Prepare () ;
+         toastUI.Init (text, 2F, color, position) ;
+      }
+
 
       public static void Show (string text, Color color) {
          Prepare () ;
-         toastUI.Init (text, 2F, color) ;
+         toastUI.Init (text, 2F, color, ToastPosition.Bottom) ;
       }
+
+      public static void Show (string text, Color color, ToastPosition position) {
+         Prepare () ;
+         toastUI.Init (text, 2F, color, position) ;
+      }
+
 
       public static void Show (string text, float duration, ToastColor color) {
          Prepare () ;
-         toastUI.Init (text, duration, color) ;
+         toastUI.Init (text, duration, color, ToastPosition.Bottom) ;
       }
+
+      public static void Show (string text, float duration, ToastColor color, ToastPosition position) {
+         Prepare () ;
+         toastUI.Init (text, duration, color, position) ;
+      }
+
 
       public static void Show (string text, float duration, Color color) {
          Prepare () ;
-         toastUI.Init (text, duration, color) ;
+         toastUI.Init (text, duration, color, ToastPosition.Bottom) ;
+      }
+
+      public static void Show (string text, float duration, Color color, ToastPosition position) {
+         Prepare () ;
+         toastUI.Init (text, duration, color, position) ;
+      }
+
+
+
+      public static void Dismiss () {
+         toastUI.Dismiss () ; 
       }
 
    }

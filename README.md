@@ -51,27 +51,27 @@ Toast.Dismiss();
 
 ## ■ Other Show(..) versions :
 ```c#
-Show (string text)
+Toast.Show (string text);
 
-Show (string text, float duration)
+Toast.Show (string text, float duration);
 
-Show (string text, float duration, ToastPosition position)
+Toast.Show (string text, float duration, ToastPosition position);
 
-Show (string text, ToastColor color)
+Toast.Show (string text, ToastColor color);
 
-Show (string text, ToastColor color, ToastPosition position)
+Toast.Show (string text, ToastColor color, ToastPosition position);
 
-Show (string text, Color color)
+Toast.Show (string text, Color color);
 
-Show (string text, Color color, ToastPosition position)
+Toast.Show (string text, Color color, ToastPosition position);
 
-Show (string text, float duration, ToastColor color)
+Toast.Show (string text, float duration, ToastColor color);
 
-Show (string text, float duration, ToastColor color, ToastPosition position)
+Toast.Show (string text, float duration, ToastColor color, ToastPosition position);
 
-Show (string text, float duration, Color color)
+Toast.Show (string text, float duration, Color color);
 
-Show (string text, float duration, Color color, ToastPosition position)
+Toast.Show (string text, float duration, Color color, ToastPosition position);
 ```
 
 

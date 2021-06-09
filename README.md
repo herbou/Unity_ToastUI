@@ -1,7 +1,7 @@
 # Toast UI for your Game messages
 A powerful,Customizable, and esay-to-use Toast UI for Unity
 
-<img src="https://www.mediafire.com/convkey/6af4/br7apcoostvua8mzg.jpg" alt="Toast ui" height="150" />
+<img src="https://www.mediafire.com/convkey/6af4/br7apcoostvua8mzg.jpg" alt="Toast ui" height="80" />
 
 ### Video tutorial : https://youtu.be/405lXPINdx0
 <br><br>
@@ -9,8 +9,9 @@ A powerful,Customizable, and esay-to-use Toast UI for Unity
 - All platforms (Standalone Builds, Android, iOS, WebGl, and more..)
 <br><br>
 ## ■ How to use?  :
-### 1- Import ```EasyUI_Toast``` package.
-### 3- Add ```EasyUI.Toast``` namespace in your script :
+### 1- Import **EasyUI_Toast** package.
+⚠️ NOTE! : No need to add any prefab to the scene
+### 3- Add **EasyUI.Toast** namespace in your script :
 ```c#
 using EasyUI.Toast ;
 ```
@@ -19,22 +20,28 @@ using EasyUI.Toast ;
 // Simple :
 Toast.Show ("Hi") ;
 
-// Duration & Color :
+// With duration :
+Toast.Show ("Hi", 3f) ;
+```
+## ■ Change colors :
+```c#
+// Built-in Colors  ( Black, Red, Purple, Magenta, Blue, Green, Yellow, Orange ) :
 Toast.Show ("Hi", 3f, ToastColor.Green) ;
 
-// Custom Color :
+// Custom Colors :
 Toast.Show ("Hi", 4f, new Color (1f, .4f, 0f)) ;
-
-// Position :
-Toast.Show ("Top Toast", 3f, ToastPosition.Top) ;
 ```
-⚠️ NOTE! : No need to add any prefab to the scene
+## ■ Change position :
+```c#
+// Positions ( TopLeft, TopCenter, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomCenter, BottomRight ) :
+Toast.Show ("Top-Center Toast", 3f, ToastPosition.TopCenter) ;
+```
 
 ## ■ Change text styling :
 ```c#
 Toast.Show ("Hello, <color=yellow>This is a yellow text<color>", 3f);
 ```
-<img src="https://www.mediafire.com/convkey/336a/c3pmudunpkuhbvb7g.jpg" alt="Toast ui" height="150" />
+<img src="https://www.mediafire.com/convkey/336a/c3pmudunpkuhbvb7g.jpg" alt="Toast ui" height="80" />
 for more supported style tags : <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html">Text supported styles</a>
 
 ## ■ Dismiss toast :

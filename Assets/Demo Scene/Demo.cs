@@ -3,7 +3,7 @@ using EasyUI.Toast ;
 using UnityEngine.UI ;
 
 public class Demo : MonoBehaviour {
-   public string text ;
+   [TextArea (5, 20)] public string text ;
 
    public void ShowMessage1 () {
       Toast.Show (text) ;

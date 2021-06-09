@@ -50,7 +50,7 @@ namespace EasyUI.Helpers {
          uiContentVerticalLayoutGroup.childAlignment = (TextAnchor)((int)position) ;
 
 
-         StopAllCoroutines () ;
+         Dismiss () ;
          StartCoroutine (FadeInOut (duration, fadeDuration)) ;
       }
 

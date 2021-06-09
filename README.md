@@ -18,18 +18,18 @@ using EasyUI.Toast ;
 ### 4- Now Simply write ```Toast.Show()```:
 ```c#
 // Simple :
-Toast.Show ("Hi") ;
+Toast.Show ("Hello Devs") ;
 
 // With duration :
-Toast.Show ("Hi", 3f) ;
+Toast.Show ("Hello Devs", 3f) ;
 ```
 ## ■ Change colors :
 ```c#
 // Built-in Colors  ( Black, Red, Purple, Magenta, Blue, Green, Yellow, Orange ) :
-Toast.Show ("Hi", 3f, ToastColor.Green) ;
+Toast.Show ("Hello Devs", 3f, ToastColor.Green) ;
 
 // Custom Colors :
-Toast.Show ("Hi", 4f, new Color (1f, .4f, 0f)) ;
+Toast.Show ("Hello Devs", 4f, new Color (1f, .4f, 0f)) ;
 ```
 ## ■ Change position :
 ```c#

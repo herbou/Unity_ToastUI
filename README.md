@@ -16,6 +16,7 @@ A powerful,Customizable, and esay-to-use Toast UI for Unity
 using EasyUI.Toast ;
 ```
 <br>
+
 ### 4- Now Simply write ```Toast.Show()```:
 ```c#
 // Simple :
@@ -25,6 +26,7 @@ Toast.Show ("Hello Devs") ;
 Toast.Show ("Hello Devs", 3f) ;
 ```
 <br>
+
 ## ■ Change colors :
 ```c#
 // Built-in Colors  ( Black, Red, Purple, Magenta, Blue, Green, Yellow, Orange ) :
@@ -34,12 +36,14 @@ Toast.Show ("Hello Devs", 3f, ToastColor.Green) ;
 Toast.Show ("Hello Devs", 4f, new Color (1f, .4f, 0f)) ;
 ```
 <br>
+
 ## ■ Change position :
 ```c#
 // Positions ( TopLeft, TopCenter, TopRight, MiddleLeft, MiddleCenter, MiddleRight, BottomLeft, BottomCenter, BottomRight ) :
 Toast.Show ("Top-Center Toast", 3f, ToastPosition.TopCenter) ;
 ```
 <br>
+
 ## ■ Change text styling :
 ```c#
 Toast.Show ("Hello, <color=yellow>This is a yellow text<color>", 3f);
@@ -48,11 +52,13 @@ Toast.Show ("Hello, <color=yellow>This is a yellow text<color>", 3f);
 for more supported style tags : <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html">Text supported styles</a>
 
 <br>
+
 ## ■ Dismiss toast :
 ```c#
 Toast.Dismiss();
 ```
 <br>
+
 ## ■ Other Show(..) versions :
 ```c#
 Toast.Show (string text);

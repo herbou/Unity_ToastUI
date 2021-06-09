@@ -20,9 +20,15 @@ namespace EasyUI.Toast {
    }
 
    public enum ToastPosition {
-      Top,
-      Middle,
-      Bottom
+      TopLeft,
+      TopCenter,
+      TopRight,
+      MiddleLeft,
+      MiddleCenter,
+      MiddleRight,
+      BottomLeft,
+      BottomCenter,
+      BottomRight
    }
 
    public static class Toast {
@@ -43,13 +49,13 @@ namespace EasyUI.Toast {
 
       public static void Show (string text) {
          Prepare () ;
-         toastUI.Init (text, 2F, ToastColor.Black, ToastPosition.Bottom) ;
+         toastUI.Init (text, 2F, ToastColor.Black, ToastPosition.BottomCenter) ;
       }
 
 
       public static void Show (string text, float duration) {
          Prepare () ;
-         toastUI.Init (text, duration, ToastColor.Black, ToastPosition.Bottom) ;
+         toastUI.Init (text, duration, ToastColor.Black, ToastPosition.BottomCenter) ;
       }
 
       public static void Show (string text, float duration, ToastPosition position) {
@@ -60,7 +66,7 @@ namespace EasyUI.Toast {
 
       public static void Show (string text, ToastColor color) {
          Prepare () ;
-         toastUI.Init (text, 2F, color, ToastPosition.Bottom) ;
+         toastUI.Init (text, 2F, color, ToastPosition.BottomCenter) ;
       }
 
       public static void Show (string text, ToastColor color, ToastPosition position) {
@@ -71,7 +77,7 @@ namespace EasyUI.Toast {
 
       public static void Show (string text, Color color) {
          Prepare () ;
-         toastUI.Init (text, 2F, color, ToastPosition.Bottom) ;
+         toastUI.Init (text, 2F, color, ToastPosition.BottomCenter) ;
       }
 
       public static void Show (string text, Color color, ToastPosition position) {
@@ -82,7 +88,7 @@ namespace EasyUI.Toast {
 
       public static void Show (string text, float duration, ToastColor color) {
          Prepare () ;
-         toastUI.Init (text, duration, color, ToastPosition.Bottom) ;
+         toastUI.Init (text, duration, color, ToastPosition.BottomCenter) ;
       }
 
       public static void Show (string text, float duration, ToastColor color, ToastPosition position) {
@@ -93,7 +99,7 @@ namespace EasyUI.Toast {
 
       public static void Show (string text, float duration, Color color) {
          Prepare () ;
-         toastUI.Init (text, duration, color, ToastPosition.Bottom) ;
+         toastUI.Init (text, duration, color, ToastPosition.BottomCenter) ;
       }
 
       public static void Show (string text, float duration, Color color, ToastPosition position) {

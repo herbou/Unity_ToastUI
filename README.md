@@ -53,7 +53,7 @@ for more supported style tags : <a href="https://docs.unity3d.com/Packages/com.u
 
 <br><br>
 
-## ■ Dismiss toast :
+## ■ Dismiss (hide) toast :
 ```c#
 Toast.Dismiss();
 ```

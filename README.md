@@ -51,27 +51,27 @@ Toast.Dismiss();
 
 ## ■ Other Show(..) versions :
 ```c#
-public static void Show (string text) {...}
+Show (string text)
 
-public static void Show (string text, float duration) {...}
+Show (string text, float duration)
 
-public static void Show (string text, float duration, ToastPosition position) {...}
+Show (string text, float duration, ToastPosition position)
 
-public static void Show (string text, ToastColor color) {...}
+Show (string text, ToastColor color)
 
-public static void Show (string text, ToastColor color, ToastPosition position) {...}
+Show (string text, ToastColor color, ToastPosition position)
 
-public static void Show (string text, Color color) {...}
+Show (string text, Color color)
 
-public static void Show (string text, Color color, ToastPosition position) {...}
+Show (string text, Color color, ToastPosition position)
 
-public static void Show (string text, float duration, ToastColor color) {...}
+Show (string text, float duration, ToastColor color)
 
-public static void Show (string text, float duration, ToastColor color, ToastPosition position) {...}
+Show (string text, float duration, ToastColor color, ToastPosition position)
 
-public static void Show (string text, float duration, Color color) {...}
+Show (string text, float duration, Color color)
 
-public static void Show (string text, float duration, Color color, ToastPosition position) {...}
+Show (string text, float duration, Color color, ToastPosition position)
 ```
 
 

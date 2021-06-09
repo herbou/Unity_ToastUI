@@ -51,7 +51,7 @@ Toast.Show ("Hello, <color=yellow>This is a yellow text<color>", 3f);
 <img src="https://www.mediafire.com/convkey/336a/c3pmudunpkuhbvb7g.jpg" alt="Toast ui" height="80" />
 for more supported style tags : <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html">Text supported styles</a>
 
-<br>
+<br><br>
 
 ## ■ Dismiss toast :
 ```c#

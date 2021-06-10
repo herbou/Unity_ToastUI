@@ -34,6 +34,7 @@ Toast.Show ("Hello Devs", 3f, ToastColor.Green) ;
 
 // Custom Colors :
 Toast.Show ("Hello Devs", 4f, new Color (1f, .4f, 0f)) ;
+// or Toast.Show ("Hello Devs", 4f, Color.blue);
 ```
 <br>
 

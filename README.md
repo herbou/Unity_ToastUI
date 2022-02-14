@@ -1,7 +1,7 @@
 # Toast UI for your Game messages
 A powerful,Customizable, and esay-to-use Toast UI for Unity
 
-<img src="https://www.mediafire.com/convkey/3c0a/x02sx1qxr037nx77g.jpg?size_id=3" alt="Toast ui" height="80" />
+<img src="https://www.mediafire.com/convkey/3c0a/x02sx1qxr037nx77g.jpg?size_id=3" alt="Toast ui" width="600" />
 
 ### Video tutorial : https://youtu.be/405lXPINdx0
 <br><br>

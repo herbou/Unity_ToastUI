@@ -110,6 +110,7 @@ namespace EasyUI.Toast {
 
 
       public static void Dismiss () {
+         Prepare () ;
          toastUI.Dismiss () ; 
       }
 

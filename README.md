@@ -9,7 +9,7 @@ A powerful,Customizable, and esay-to-use Toast UI for Unity
 - All platforms (Standalone Builds, Android, iOS, WebGl, and more..)
 <br><br>
 ## ■ How to use?  :
-### 1- Import **EasyUI_Toast.unitypackage** package to your project.
+### 1- Import ```EasyUI_Toast.unitypackage``` package to your project.
 ⚠️ NOTE! : No need to add any prefab to the scene
 ### 3- Add **EasyUI.Toast** namespace in your script :
 ```c#
